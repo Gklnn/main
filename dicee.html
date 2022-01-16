@@ -5,8 +5,11 @@
     <title>Dicee</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-    
-
+    <style>
+      .bt{
+        text-align: center;
+        background-color: red;
+      }
   </head>
   <body>
 
@@ -24,7 +27,7 @@
       </div>
 
     </div>
-    <button type="button" onClick="Refresh()">Close</button>
+    <button type="button" class="bt" onClick="Refresh()">Close</button>
     <script>
       function Refresh(){
         window.parent.location=window.parent.location.href;
