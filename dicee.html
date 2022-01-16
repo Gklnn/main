@@ -24,7 +24,12 @@
       </div>
 
     </div>
-
+    <button type="button" onClick="Refresh()">Close</button>
+    <script>
+      function Refresh(){
+        window.parent.location=window.parent.location.href;
+      }
+    </script>
     <script src="index1.js"></script>
   </body>
 
