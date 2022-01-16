@@ -5,12 +5,6 @@
     <title>Dicee</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-    <style>
-      .bt{
-        padding: 25 75;
-        text-align: center;
-        background-color: red;
-      }
   </head>
   <body>
 
@@ -28,7 +22,7 @@
       </div>
 
     </div>
-    <button type="button" class="bt" onClick="Refresh()">Close</button>
+    <button style="background-color:red; padding: 25px 75px;"type="button" class="bt" onClick="Refresh()">Close</button>
     <script>
       function Refresh(){
         window.parent.location=window.parent.location.href;
